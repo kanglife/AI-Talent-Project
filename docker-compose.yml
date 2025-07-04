@@ -1,0 +1,6 @@
+# 서비스 구성파일
+services:
+  streamlit-app:
+    build: .
+    ports:
+      - "8501:8501"

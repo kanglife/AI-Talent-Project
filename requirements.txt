@@ -1,0 +1,36 @@
+# ✅ Web UI 및 서비스
+streamlit==1.42.2
+fastapi==0.115.11
+uvicorn==0.34.0
+
+# ✅ LangChain & LangGraph 핵심
+langchain==0.3.19
+langchain-community==0.3.18  # VectorStore, Embeddings, Tools 등
+langchain-openai==0.3.7       # Azure/OpenAI 연결용
+langgraph==0.3.2
+
+# ✅ OpenAI SDK
+openai==1.65.2
+tiktoken==0.9.0
+
+# ✅ Azure + .env 관리
+python-dotenv==1.0.1
+
+# ✅ 검색용 라이브러리 (웹, 위키, 문서 등)
+wikipedia==1.4.0
+beautifulsoup4==4.13.3
+requests==2.32.3
+
+# ✅ RAG: 벡터 DB
+faiss-cpu==1.10.0
+duckduckgo-search>=0.16.0
+
+
+# ✅ Langfuse 추적용 (선택)
+langfuse==2.59.7
+sseclient==0.0.27
+
+# ✅ 시각화 및 그래프
+matplotlib==3.10.1
+networkx==3.4.2
+
